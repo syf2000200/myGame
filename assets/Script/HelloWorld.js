@@ -1,5 +1,5 @@
 cc.Class({
-    extends: cc.Component,
+    extends: cc.Component,,,
 
     properties: {
         label: {
@@ -17,6 +17,5 @@ cc.Class({
 
     // called every frame
     update: function (dt) {
-        console,log('updated');
     },
 });
